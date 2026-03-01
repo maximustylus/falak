@@ -6,14 +6,12 @@ import { useCallback, useEffect, useState } from 'react';
 // ForceGraph2D relies on window, so we must dynamically import it with ssr: false
 const ForceGraph2D = dynamic(() => import('react-force-graph-2d'), { ssr: false });
 
-export default function FalakGraph({ data }) {
+export default function FalakGraph({ data, onNodeClick }) {
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
     // We defer setIsMounted slightly to avoid triggering the react-hooks/set-state-in-effect warning.
-    // However, the standard fix is using a separate effect or just allowing it since it runs once.
-    // For this case, we can use an animation frame or a timeout to set it.
     const timeoutId = setTimeout(() => setIsMounted(true), 0);
 
     // Basic responsive handling
@@ -94,6 +92,7 @@ export default function FalakGraph({ data }) {
         enableNodeDrag={true}
         enableZoomPanInteraction={true}
         backgroundColor="#111827" // matches Tailwind gray-900
+        onNodeClick={onNodeClick}
       />
     </div>
   );
