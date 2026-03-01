@@ -1,0 +1,15 @@
+{
+  "nodes": [
+    { "id": "1", "section": "A", "group": 1, "theme": "Dominion & Heavens", "arabic": "تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ", "english": "Blessed is He in whose hand is dominion, and He is over all things competent." },
+    { "id": "2", "section": "A", "group": 1, "theme": "Dominion & Heavens", "arabic": "الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ...", "english": "[He] who created death and life..." },
+    { "id": "6", "section": "B", "group": 2, "theme": "The Fire & Warning", "arabic": "وَلِلَّذِينَ كَفَرُوا بِرَبِّهِمْ عَذَابُ جَهَنَّمَ ۖ وَبِئْسَ الْمَصِيرُ", "english": "And for those who disbelieved in their Lord is the punishment of Hell, and wretched is the destination." },
+    { "id": "13", "section": "C", "group": 3, "theme": "The Core: Divine Knowledge", "arabic": "وَأَسِرُّوا قَوْلَكُمْ أَوِ اجْهَرُوا بِهِ ۖ إِنَّهُ عَلِيمٌ بِذَاتِ الصُّدُورِ", "english": "And conceal your speech or publicize it; indeed, He is Knowing of that within the breasts." },
+    { "id": "16", "section": "B'", "group": 2, "theme": "The Earth & Warning", "arabic": "أَأَمِنْتُمْ مَنْ فِي السَّمَاءِ أَنْ يَخْسِفَ بِكُمُ الْأَرْضَ...", "english": "Do you feel secure that He who [holds authority] in the heaven would not cause the earth to swallow you..." },
+    { "id": "30", "section": "A'", "group": 1, "theme": "Provision & Water", "arabic": "قُلْ أَرَأَيْتُمْ إِنْ أَصْبَحَ مَاؤُكُمْ غَوْرًا فَمَنْ يَأْتِيكُمْ بِمَاءٍ مَعِينٍ", "english": "Say, 'Have you considered: if your water was to become sunken [into the earth], then who could bring you flowing water?'" }
+  ],
+  "links": [
+    { "source": "1", "target": "2", "type": "sequential" },
+    { "source": "1", "target": "30", "type": "mirror", "context": "Just as He holds absolute dominion over the heavens (V1), He controls the literal life-giving water of the earth (V30)." },
+    { "source": "6", "target": "16", "type": "mirror", "context": "Warning of the unseen fire (V6) mirrors the warning of physical destruction via the earth (V16)." }
+  ]
+}
