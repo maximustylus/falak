@@ -34,7 +34,7 @@ export default function Home() {
       </div>
 
       <div className="relative flex place-items-center w-full h-[80vh] border border-gray-700 rounded-lg overflow-hidden mt-8">
-          <FalakGraph data={mulkData} onNodeClick={handleNodeClick} />
+          <FalakGraph data={mulkData} onNodeClick={handleNodeClick} selectedNode={selectedNode} />
       </div>
 
       <IqraSidebar node={selectedNode} onClose={handleCloseSidebar} />
