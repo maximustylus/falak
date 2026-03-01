@@ -1,15 +1,436 @@
 {
   "nodes": [
-    { "id": "1", "section": "A", "group": 1, "theme": "Dominion & Heavens", "arabic": "تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ", "english": "Blessed is He in whose hand is dominion, and He is over all things competent." },
-    { "id": "2", "section": "A", "group": 1, "theme": "Dominion & Heavens", "arabic": "الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ...", "english": "[He] who created death and life..." },
-    { "id": "6", "section": "B", "group": 2, "theme": "The Fire & Warning", "arabic": "وَلِلَّذِينَ كَفَرُوا بِرَبِّهِمْ عَذَابُ جَهَنَّمَ ۖ وَبِئْسَ الْمَصِيرُ", "english": "And for those who disbelieved in their Lord is the punishment of Hell, and wretched is the destination." },
-    { "id": "13", "section": "C", "group": 3, "theme": "The Core: Divine Knowledge", "arabic": "وَأَسِرُّوا قَوْلَكُمْ أَوِ اجْهَرُوا بِهِ ۖ إِنَّهُ عَلِيمٌ بِذَاتِ الصُّدُورِ", "english": "And conceal your speech or publicize it; indeed, He is Knowing of that within the breasts." },
-    { "id": "16", "section": "B'", "group": 2, "theme": "The Earth & Warning", "arabic": "أَأَمِنْتُمْ مَنْ فِي السَّمَاءِ أَنْ يَخْسِفَ بِكُمُ الْأَرْضَ...", "english": "Do you feel secure that He who [holds authority] in the heaven would not cause the earth to swallow you..." },
-    { "id": "30", "section": "A'", "group": 1, "theme": "Provision & Water", "arabic": "قُلْ أَرَأَيْتُمْ إِنْ أَصْبَحَ مَاؤُكُمْ غَوْرًا فَمَنْ يَأْتِيكُمْ بِمَاءٍ مَعِينٍ", "english": "Say, 'Have you considered: if your water was to become sunken [into the earth], then who could bring you flowing water?'" }
+    {
+      "id": 1,
+      "name": "Verse 1",
+      "group": 1,
+      "section": "Section 1",
+      "theme": "Theme for Verse 1",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 1",
+      "english": "This is the english translation for Verse 1."
+    },
+    {
+      "id": 2,
+      "name": "Verse 2",
+      "group": 2,
+      "section": "Section 1",
+      "theme": "Theme for Verse 2",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 2",
+      "english": "This is the english translation for Verse 2."
+    },
+    {
+      "id": 3,
+      "name": "Verse 3",
+      "group": 3,
+      "section": "Section 1",
+      "theme": "Theme for Verse 3",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 3",
+      "english": "This is the english translation for Verse 3."
+    },
+    {
+      "id": 4,
+      "name": "Verse 4",
+      "group": 1,
+      "section": "Section 1",
+      "theme": "Theme for Verse 4",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 4",
+      "english": "This is the english translation for Verse 4."
+    },
+    {
+      "id": 5,
+      "name": "Verse 5",
+      "group": 2,
+      "section": "Section 1",
+      "theme": "Theme for Verse 5",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 5",
+      "english": "This is the english translation for Verse 5."
+    },
+    {
+      "id": 6,
+      "name": "Verse 6",
+      "group": 3,
+      "section": "Section 2",
+      "theme": "Theme for Verse 6",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 6",
+      "english": "This is the english translation for Verse 6."
+    },
+    {
+      "id": 7,
+      "name": "Verse 7",
+      "group": 1,
+      "section": "Section 2",
+      "theme": "Theme for Verse 7",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 7",
+      "english": "This is the english translation for Verse 7."
+    },
+    {
+      "id": 8,
+      "name": "Verse 8",
+      "group": 2,
+      "section": "Section 2",
+      "theme": "Theme for Verse 8",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 8",
+      "english": "This is the english translation for Verse 8."
+    },
+    {
+      "id": 9,
+      "name": "Verse 9",
+      "group": 3,
+      "section": "Section 2",
+      "theme": "Theme for Verse 9",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 9",
+      "english": "This is the english translation for Verse 9."
+    },
+    {
+      "id": 10,
+      "name": "Verse 10",
+      "group": 1,
+      "section": "Section 2",
+      "theme": "Theme for Verse 10",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 10",
+      "english": "This is the english translation for Verse 10."
+    },
+    {
+      "id": 11,
+      "name": "Verse 11",
+      "group": 2,
+      "section": "Section 3",
+      "theme": "Theme for Verse 11",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 11",
+      "english": "This is the english translation for Verse 11."
+    },
+    {
+      "id": 12,
+      "name": "Verse 12",
+      "group": 3,
+      "section": "Section 3",
+      "theme": "Theme for Verse 12",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 12",
+      "english": "This is the english translation for Verse 12."
+    },
+    {
+      "id": 13,
+      "name": "Verse 13",
+      "group": 1,
+      "section": "Section 3",
+      "theme": "Theme for Verse 13",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 13",
+      "english": "This is the english translation for Verse 13."
+    },
+    {
+      "id": 14,
+      "name": "Verse 14",
+      "group": 2,
+      "section": "Section 3",
+      "theme": "Theme for Verse 14",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 14",
+      "english": "This is the english translation for Verse 14."
+    },
+    {
+      "id": 15,
+      "name": "Verse 15",
+      "group": 3,
+      "section": "Section 3",
+      "theme": "Theme for Verse 15",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 15",
+      "english": "This is the english translation for Verse 15."
+    },
+    {
+      "id": 16,
+      "name": "Verse 16",
+      "group": 1,
+      "section": "Section 4",
+      "theme": "Theme for Verse 16",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 16",
+      "english": "This is the english translation for Verse 16."
+    },
+    {
+      "id": 17,
+      "name": "Verse 17",
+      "group": 2,
+      "section": "Section 4",
+      "theme": "Theme for Verse 17",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 17",
+      "english": "This is the english translation for Verse 17."
+    },
+    {
+      "id": 18,
+      "name": "Verse 18",
+      "group": 3,
+      "section": "Section 4",
+      "theme": "Theme for Verse 18",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 18",
+      "english": "This is the english translation for Verse 18."
+    },
+    {
+      "id": 19,
+      "name": "Verse 19",
+      "group": 1,
+      "section": "Section 4",
+      "theme": "Theme for Verse 19",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 19",
+      "english": "This is the english translation for Verse 19."
+    },
+    {
+      "id": 20,
+      "name": "Verse 20",
+      "group": 2,
+      "section": "Section 4",
+      "theme": "Theme for Verse 20",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 20",
+      "english": "This is the english translation for Verse 20."
+    },
+    {
+      "id": 21,
+      "name": "Verse 21",
+      "group": 3,
+      "section": "Section 5",
+      "theme": "Theme for Verse 21",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 21",
+      "english": "This is the english translation for Verse 21."
+    },
+    {
+      "id": 22,
+      "name": "Verse 22",
+      "group": 1,
+      "section": "Section 5",
+      "theme": "Theme for Verse 22",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 22",
+      "english": "This is the english translation for Verse 22."
+    },
+    {
+      "id": 23,
+      "name": "Verse 23",
+      "group": 2,
+      "section": "Section 5",
+      "theme": "Theme for Verse 23",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 23",
+      "english": "This is the english translation for Verse 23."
+    },
+    {
+      "id": 24,
+      "name": "Verse 24",
+      "group": 3,
+      "section": "Section 5",
+      "theme": "Theme for Verse 24",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 24",
+      "english": "This is the english translation for Verse 24."
+    },
+    {
+      "id": 25,
+      "name": "Verse 25",
+      "group": 1,
+      "section": "Section 5",
+      "theme": "Theme for Verse 25",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 25",
+      "english": "This is the english translation for Verse 25."
+    },
+    {
+      "id": 26,
+      "name": "Verse 26",
+      "group": 2,
+      "section": "Section 6",
+      "theme": "Theme for Verse 26",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 26",
+      "english": "This is the english translation for Verse 26."
+    },
+    {
+      "id": 27,
+      "name": "Verse 27",
+      "group": 3,
+      "section": "Section 6",
+      "theme": "Theme for Verse 27",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 27",
+      "english": "This is the english translation for Verse 27."
+    },
+    {
+      "id": 28,
+      "name": "Verse 28",
+      "group": 1,
+      "section": "Section 6",
+      "theme": "Theme for Verse 28",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 28",
+      "english": "This is the english translation for Verse 28."
+    },
+    {
+      "id": 29,
+      "name": "Verse 29",
+      "group": 2,
+      "section": "Section 6",
+      "theme": "Theme for Verse 29",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 29",
+      "english": "This is the english translation for Verse 29."
+    },
+    {
+      "id": 30,
+      "name": "Verse 30",
+      "group": 3,
+      "section": "Section 6",
+      "theme": "Theme for Verse 30",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 30",
+      "english": "This is the english translation for Verse 30."
+    }
   ],
   "links": [
-    { "source": "1", "target": "2", "type": "sequential" },
-    { "source": "1", "target": "30", "type": "mirror", "context": "Just as He holds absolute dominion over the heavens (V1), He controls the literal life-giving water of the earth (V30)." },
-    { "source": "6", "target": "16", "type": "mirror", "context": "Warning of the unseen fire (V6) mirrors the warning of physical destruction via the earth (V16)." }
+    {
+      "source": 1,
+      "target": 2,
+      "type": "normal"
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "type": "normal"
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "type": "normal"
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "type": "normal"
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "type": "normal"
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "type": "normal"
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "type": "normal"
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "type": "normal"
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "type": "normal"
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "type": "normal"
+    },
+    {
+      "source": 11,
+      "target": 12,
+      "type": "normal"
+    },
+    {
+      "source": 12,
+      "target": 13,
+      "type": "normal"
+    },
+    {
+      "source": 13,
+      "target": 14,
+      "type": "normal"
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "type": "normal"
+    },
+    {
+      "source": 15,
+      "target": 16,
+      "type": "normal"
+    },
+    {
+      "source": 16,
+      "target": 17,
+      "type": "normal"
+    },
+    {
+      "source": 17,
+      "target": 18,
+      "type": "normal"
+    },
+    {
+      "source": 18,
+      "target": 19,
+      "type": "normal"
+    },
+    {
+      "source": 19,
+      "target": 20,
+      "type": "normal"
+    },
+    {
+      "source": 20,
+      "target": 21,
+      "type": "normal"
+    },
+    {
+      "source": 21,
+      "target": 22,
+      "type": "normal"
+    },
+    {
+      "source": 22,
+      "target": 23,
+      "type": "normal"
+    },
+    {
+      "source": 23,
+      "target": 24,
+      "type": "normal"
+    },
+    {
+      "source": 24,
+      "target": 25,
+      "type": "normal"
+    },
+    {
+      "source": 25,
+      "target": 26,
+      "type": "normal"
+    },
+    {
+      "source": 26,
+      "target": 27,
+      "type": "normal"
+    },
+    {
+      "source": 27,
+      "target": 28,
+      "type": "normal"
+    },
+    {
+      "source": 28,
+      "target": 29,
+      "type": "normal"
+    },
+    {
+      "source": 29,
+      "target": 30,
+      "type": "normal"
+    },
+    {
+      "source": 1,
+      "target": 30,
+      "type": "mirror"
+    },
+    {
+      "source": 5,
+      "target": 25,
+      "type": "mirror"
+    },
+    {
+      "source": 10,
+      "target": 20,
+      "type": "mirror"
+    }
   ]
 }
