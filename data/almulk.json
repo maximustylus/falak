@@ -1,436 +1,82 @@
 {
   "nodes": [
-    {
-      "id": 1,
-      "name": "Verse 1",
-      "group": 1,
-      "section": "Section 1",
-      "theme": "Theme for Verse 1",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 1",
-      "english": "This is the english translation for Verse 1."
-    },
-    {
-      "id": 2,
-      "name": "Verse 2",
-      "group": 2,
-      "section": "Section 1",
-      "theme": "Theme for Verse 2",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 2",
-      "english": "This is the english translation for Verse 2."
-    },
-    {
-      "id": 3,
-      "name": "Verse 3",
-      "group": 3,
-      "section": "Section 1",
-      "theme": "Theme for Verse 3",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 3",
-      "english": "This is the english translation for Verse 3."
-    },
-    {
-      "id": 4,
-      "name": "Verse 4",
-      "group": 1,
-      "section": "Section 1",
-      "theme": "Theme for Verse 4",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 4",
-      "english": "This is the english translation for Verse 4."
-    },
-    {
-      "id": 5,
-      "name": "Verse 5",
-      "group": 2,
-      "section": "Section 1",
-      "theme": "Theme for Verse 5",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 5",
-      "english": "This is the english translation for Verse 5."
-    },
-    {
-      "id": 6,
-      "name": "Verse 6",
-      "group": 3,
-      "section": "Section 2",
-      "theme": "Theme for Verse 6",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 6",
-      "english": "This is the english translation for Verse 6."
-    },
-    {
-      "id": 7,
-      "name": "Verse 7",
-      "group": 1,
-      "section": "Section 2",
-      "theme": "Theme for Verse 7",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 7",
-      "english": "This is the english translation for Verse 7."
-    },
-    {
-      "id": 8,
-      "name": "Verse 8",
-      "group": 2,
-      "section": "Section 2",
-      "theme": "Theme for Verse 8",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 8",
-      "english": "This is the english translation for Verse 8."
-    },
-    {
-      "id": 9,
-      "name": "Verse 9",
-      "group": 3,
-      "section": "Section 2",
-      "theme": "Theme for Verse 9",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 9",
-      "english": "This is the english translation for Verse 9."
-    },
-    {
-      "id": 10,
-      "name": "Verse 10",
-      "group": 1,
-      "section": "Section 2",
-      "theme": "Theme for Verse 10",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 10",
-      "english": "This is the english translation for Verse 10."
-    },
-    {
-      "id": 11,
-      "name": "Verse 11",
-      "group": 2,
-      "section": "Section 3",
-      "theme": "Theme for Verse 11",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 11",
-      "english": "This is the english translation for Verse 11."
-    },
-    {
-      "id": 12,
-      "name": "Verse 12",
-      "group": 3,
-      "section": "Section 3",
-      "theme": "Theme for Verse 12",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 12",
-      "english": "This is the english translation for Verse 12."
-    },
-    {
-      "id": 13,
-      "name": "Verse 13",
-      "group": 1,
-      "section": "Section 3",
-      "theme": "Theme for Verse 13",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 13",
-      "english": "This is the english translation for Verse 13."
-    },
-    {
-      "id": 14,
-      "name": "Verse 14",
-      "group": 2,
-      "section": "Section 3",
-      "theme": "Theme for Verse 14",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 14",
-      "english": "This is the english translation for Verse 14."
-    },
-    {
-      "id": 15,
-      "name": "Verse 15",
-      "group": 3,
-      "section": "Section 3",
-      "theme": "Theme for Verse 15",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 15",
-      "english": "This is the english translation for Verse 15."
-    },
-    {
-      "id": 16,
-      "name": "Verse 16",
-      "group": 1,
-      "section": "Section 4",
-      "theme": "Theme for Verse 16",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 16",
-      "english": "This is the english translation for Verse 16."
-    },
-    {
-      "id": 17,
-      "name": "Verse 17",
-      "group": 2,
-      "section": "Section 4",
-      "theme": "Theme for Verse 17",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 17",
-      "english": "This is the english translation for Verse 17."
-    },
-    {
-      "id": 18,
-      "name": "Verse 18",
-      "group": 3,
-      "section": "Section 4",
-      "theme": "Theme for Verse 18",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 18",
-      "english": "This is the english translation for Verse 18."
-    },
-    {
-      "id": 19,
-      "name": "Verse 19",
-      "group": 1,
-      "section": "Section 4",
-      "theme": "Theme for Verse 19",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 19",
-      "english": "This is the english translation for Verse 19."
-    },
-    {
-      "id": 20,
-      "name": "Verse 20",
-      "group": 2,
-      "section": "Section 4",
-      "theme": "Theme for Verse 20",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 20",
-      "english": "This is the english translation for Verse 20."
-    },
-    {
-      "id": 21,
-      "name": "Verse 21",
-      "group": 3,
-      "section": "Section 5",
-      "theme": "Theme for Verse 21",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 21",
-      "english": "This is the english translation for Verse 21."
-    },
-    {
-      "id": 22,
-      "name": "Verse 22",
-      "group": 1,
-      "section": "Section 5",
-      "theme": "Theme for Verse 22",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 22",
-      "english": "This is the english translation for Verse 22."
-    },
-    {
-      "id": 23,
-      "name": "Verse 23",
-      "group": 2,
-      "section": "Section 5",
-      "theme": "Theme for Verse 23",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 23",
-      "english": "This is the english translation for Verse 23."
-    },
-    {
-      "id": 24,
-      "name": "Verse 24",
-      "group": 3,
-      "section": "Section 5",
-      "theme": "Theme for Verse 24",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 24",
-      "english": "This is the english translation for Verse 24."
-    },
-    {
-      "id": 25,
-      "name": "Verse 25",
-      "group": 1,
-      "section": "Section 5",
-      "theme": "Theme for Verse 25",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 25",
-      "english": "This is the english translation for Verse 25."
-    },
-    {
-      "id": 26,
-      "name": "Verse 26",
-      "group": 2,
-      "section": "Section 6",
-      "theme": "Theme for Verse 26",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 26",
-      "english": "This is the english translation for Verse 26."
-    },
-    {
-      "id": 27,
-      "name": "Verse 27",
-      "group": 3,
-      "section": "Section 6",
-      "theme": "Theme for Verse 27",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 27",
-      "english": "This is the english translation for Verse 27."
-    },
-    {
-      "id": 28,
-      "name": "Verse 28",
-      "group": 1,
-      "section": "Section 6",
-      "theme": "Theme for Verse 28",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 28",
-      "english": "This is the english translation for Verse 28."
-    },
-    {
-      "id": 29,
-      "name": "Verse 29",
-      "group": 2,
-      "section": "Section 6",
-      "theme": "Theme for Verse 29",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 29",
-      "english": "This is the english translation for Verse 29."
-    },
-    {
-      "id": 30,
-      "name": "Verse 30",
-      "group": 3,
-      "section": "Section 6",
-      "theme": "Theme for Verse 30",
-      "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ 30",
-      "english": "This is the english translation for Verse 30."
-    }
+    { "id": 1, "section": "A", "theme": "Dominion over Heavens", "arabic": "تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ", "english": "Blessed is He in whose hand is dominion, and He is over all things competent." },
+    { "id": 2, "section": "A", "theme": "Creation of Life and Death", "arabic": "الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ الْعَزِيزُ الْغَفُورُ", "english": "[He] who created death and life to test you [as to] which of you is best in deed - and He is the Exalted in Might, the Forgiving." },
+    { "id": 3, "section": "A", "theme": "Perfection of the Skies", "arabic": "الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِي خَلْقِ الرَّحْمَٰنِ مِن تَفَاوُتٍ ۖ فَارْجِعِ الْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ", "english": "[And] who created seven heavens in layers. You do not see in the creation of the Most Merciful any inconsistency. So return [your] vision [to the sky]; do you see any breaks?" },
+    { "id": 4, "section": "A", "theme": "Flawless Design", "arabic": "ثُمَّ ارْجِعِ الْبَصَرَ كَرَّتَيْنِ يَنقَلِبْ إِلَيْكَ الْبَصَرُ خَاسِئًا وَهُوَ حَسِيرٌ", "english": "Then return [your] vision twice again. [Your] vision will return to you humbled while it is fatigued." },
+    { "id": 5, "section": "A", "theme": "Lamps of the Lowest Heaven", "arabic": "وَلَقَدْ زَيَّنَّا السَّمَاءَ الدُّنْيَا بِمَصَابِيحَ وَجَعَلْنَاهَا رُجُومًا لِّلشَّيَاطِينِ ۖ وَأَعْتَدْنَا لَهُمْ عَذَابَ السَّعِيرِ", "english": "And We have certainly beautified the nearest heaven with stars and have made [from] them what is thrown at the devils and have prepared for them the punishment of the Blaze." },
+    { "id": 6, "section": "B", "theme": "Fate of Disbelievers", "arabic": "وَلِلَّذِينَ كَفَرُوا بِرَبِّهِمْ عَذَابُ جَهَنَّمَ ۖ وَبِئْسَ الْمَصِيرُ", "english": "And for those who disbelieved in their Lord is the punishment of Hell, and wretched is the destination." },
+    { "id": 7, "section": "B", "theme": "The Roar of Hellfire", "arabic": "إِذَا أُلْقُوا فِيهَا سَمِعُوا لَهَا شَهِيقًا وَهِيَ تَفُورُ", "english": "When they are thrown into it, they hear from it a [dreadful] inhaling while it boils up." },
+    { "id": 8, "section": "B", "theme": "The Warners Came", "arabic": "تَكَادُ تَمَيَّزُ مِنَ الْغَيْظِ ۖ كُلَّمَا أُلْقِيَ فِيهَا فَوْجٌ سَأَلَهُمْ خَزَنَتُهَا أَلَمْ يَأْتِكُمْ نَذِيرٌ", "english": "It almost bursts with rage. Every time a company is thrown into it, its keepers ask them, 'Did there not come to you a warner?'" },
+    { "id": 9, "section": "B", "theme": "Denial of the Warners", "arabic": "قَالُوا بَلَىٰ قَدْ جَاءَنَا نَذِيرٌ فَكَذَّبْنَا وَقُلْنَا مَا نَزَّلَ اللَّهُ مِن شَيْءٍ إِنْ أَنتُمْ إِلَّا فِي ضَلَالٍ كَبِيرٍ", "english": "They will say, 'Yes, a warner had come to us, but we denied and said, \"Allah has not sent down anything. You are not but in great error.\"'"},
+    { "id": 10, "section": "B", "theme": "Regret of the Senses", "arabic": "وَقَالُوا لَوْ كُنَّا نَسْمَعُ أَوْ نَعْقِلُ مَا كُنَّا فِي أَصْحَابِ السَّعِيرِ", "english": "And they will say, 'If only we had been listening or reasoning, we would not be among the companions of the Blaze.'" },
+    { "id": 11, "section": "B", "theme": "Confession of Sin", "arabic": "فَاعْتَرَفُوا بِذَنبِهِمْ فَسُحْقًا لِّأَصْحَابِ السَّعِيرِ", "english": "And they will admit their sin, so [it is] alienation for the companions of the Blaze." },
+    { "id": 12, "section": "C", "theme": "The Unseen Fear (Nucleus)", "arabic": "إِنَّ الَّذِينَ يَخْشَوْنَ رَبَّهُم بِالْغَيْبِ لَهُم مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ", "english": "Indeed, those who fear their Lord unseen will have forgiveness and a great reward." },
+    { "id": 13, "section": "C", "theme": "Divine Knowledge of Secrets", "arabic": "وَأَسِرُّوا قَوْلَكُمْ أَوِ اجْهَرُوا بِهِ ۖ إِنَّهُ عَلِيمٌ بِذَاتِ الصُّدُورِ", "english": "And conceal your speech or publicize it; indeed, He is Knowing of that within the breasts." },
+    { "id": 14, "section": "C", "theme": "The Creator Knows His Creation", "arabic": "أَلَا يَعْلَمُ مَنْ خَلَقَ وَهُوَ اللَّطِيفُ الْخَبِيرُ", "english": "Does He who created not know, while He is the Subtle, the Acquainted?" },
+    { "id": 15, "section": "C", "theme": "Earth Made Manageable", "arabic": "هُوَ الَّذِي جَعَلَ لَكُمُ الْأَرْضَ ذَلُولًا فَامْشُوا فِي مَنَاكِبِهَا وَكُلُوا مِن رِّزْقِهِ ۖ وَإِلَيْهِ النُّشُورُ", "english": "It is He who made the earth tame for you - so walk among its slopes and eat of His provision - and to Him is the resurrection." },
+    { "id": 16, "section": "B'", "theme": "Security from the Earth?", "arabic": "أَأَمِنتُم مَّن فِي السَّمَاءِ أَن يَخْسِفَ بِكُمُ الْأَرْضَ فَإِذَا هِيَ تَمُورُ", "english": "Do you feel secure that He who [holds authority] in the heaven would not cause the earth to swallow you and suddenly it would sway?" },
+    { "id": 17, "section": "B'", "theme": "Security from the Sky?", "arabic": "أَمْ أَمِنتُم مَّن فِي السَّمَاءِ أَن يُرْسِلَ عَلَيْكُمْ حَاصِبًا ۖ فَسَتَعْلَمُونَ كَيْفَ نَذِيرِ", "english": "Or do you feel secure that He who [holds authority] in the heaven would not send against you a storm of stones? Then you would know how [severe] was My warning." },
+    { "id": 18, "section": "B'", "theme": "Denial of Past Nations", "arabic": "وَلَقَدْ كَذَّبَ الَّذِينَ مِن قَبْلِهِمْ فَكَيْفَ كَانَ نَكِيرِ", "english": "And already had those before them denied, and how [terrible] was My reproach." },
+    { "id": 19, "section": "B'", "theme": "Birds Suspended in Flight", "arabic": "أَوَلَمْ يَرَوْا إِلَى الطَّيْرِ فَوْقَهُمْ صَافَّاتٍ وَيَقْبِضْنَ ۚ مَا يُمْسِكُهُنَّ إِلَّا الرَّحْمَٰنُ ۚ إِنَّهُ بِكُلِّ شَيْءٍ بَصِيرٌ", "english": "Do they not see the birds above them with wings outspread and [sometimes] folded in? None holds them [aloft] except the Most Merciful. Indeed He is, of all things, Seeing." },
+    { "id": 20, "section": "B'", "theme": "False Armies & Delusion", "arabic": "أَمَّنْ هَٰذَا الَّذِي هُوَ جُندٌ لَّكُمْ يَنصُرُكُم مِّن دُونِ الرَّحْمَٰنِ ۚ إِنِ الْكَافِرُونَ إِلَّا فِي غُرُورٍ", "english": "Or who is it that could be an army for you to aid you other than the Most Merciful? The disbelievers are not but in delusion." },
+    { "id": 21, "section": "B'", "theme": "False Sustenance", "arabic": "أَمَّنْ هَٰذَا الَّذِي يَرْزُقُكُمْ إِنْ أَمْسَكَ رِزْقَهُ ۚ بَل لَّجُّوا فِي عُتُوٍّ وَنُفُورٍ", "english": "Or who is it that could provide for you if He withheld His provision? But they have persisted in insolence and aversion." },
+    { "id": 22, "section": "B'", "theme": "Walking Prone vs Upright", "arabic": "أَفَمَن يَمْشِي مُكِبًّا عَلَىٰ وَجْهِهِ أَهْدَىٰ أَمَّن يَمْشِي سَوِيًّا عَلَىٰ صِرَاطٍ مُّسْتَقِيمٍ", "english": "Then is one who walks fallen on his face better guided or one who walks erect on a straight path?" },
+    { "id": 23, "section": "A'", "theme": "Creation of the Senses", "arabic": "قُلْ هُوَ الَّذِي أَنشَأَكُمْ وَجَعَلَ لَكُمُ السَّمْعَ وَالْأَبْصَارَ وَالْأَفْئِدَةَ ۖ قَلِيلًا مَّا تَشْكُرُونَ", "english": "Say, 'It is He who has produced you and made for you hearing and vision and hearts; little are you grateful.'" },
+    { "id": 24, "section": "A'", "theme": "Multiplication on Earth", "arabic": "قُلْ هُوَ الَّذِي ذَرَأَكُمْ فِي الْأَرْضِ وَإِلَيْهِ تُحْشَرُونَ", "english": "Say, 'It is He who has multiplied you throughout the earth, and to Him you will be gathered.'" },
+    { "id": 25, "section": "A'", "theme": "The Question of the Promise", "arabic": "وَيَقُولُونَ مَتَىٰ هَٰذَا الْوَعْدُ إِن كُنتُمْ صَادِقِينَ", "english": "And they say, 'When is this promise, if you should be truthful?'" },
+    { "id": 26, "section": "A'", "theme": "Knowledge is with Allah", "arabic": "قُلْ إِنَّمَا الْعِلْمُ عِندَ اللَّهِ وَإِنَّمَا أَنَا نَذِيرٌ مُّبِينٌ", "english": "Say, 'The knowledge is only with Allah, and I am only a clear warner.'" },
+    { "id": 27, "section": "A'", "theme": "The Distress of the Final Day", "arabic": "فَلَمَّا رَأَوْهُ زُلْفَةً سِيئَتْ وُجُوهُ الَّذِينَ كَفَرُوا وَقِيلَ هَٰذَا الَّذِي كُنتُم بِهِ تَدَّعُونَ", "english": "But when they see it approaching, the faces of those who disbelieve will be distressed, and it will be said, 'This is that for which you used to call.'" },
+    { "id": 28, "section": "A'", "theme": "Mercy vs Punishment", "arabic": "قُلْ أَرَأَيْتُمْ إِنْ أَهْلَكَنِيَ اللَّهُ وَمَن مَّعِيَ أَوْ رَحِمَنَا فَمَن يُجِيرُ الْكَافِرِينَ مِنْ عَذَابٍ أَلِيمٍ", "english": "Say, 'Have you considered: whether Allah destroys me and those with me or has mercy upon us, who can protect the disbelievers from a painful punishment?'" },
+    { "id": 29, "section": "A'", "theme": "Reliance on the Most Merciful", "arabic": "قُلْ هُوَ الرَّحْمَٰنُ آمَنَّا بِهِ وَعَلَيْهِ تَوَكَّلْنَا ۖ فَسَتَعْلَمُونَ مَنْ هُوَ فِي ضَلَالٍ مُّبِينٍ", "english": "Say, 'He is the Most Merciful; we have believed in Him, and upon Him we have relied. And you will [come to] know who it is that is in clear error.'" },
+    { "id": 30, "section": "A'", "theme": "Dominion over Earth's Water", "arabic": "قُلْ أَرَأَيْتُمْ إِنْ أَصْبَحَ مَاؤُكُمْ غَوْرًا فَمَن يَأْتِيكُم بِمَاءٍ مَّعِينٍ", "english": "Say, 'Have you considered: if your water was to become sunken [into the earth], then who could bring you flowing water?'" }
   ],
   "links": [
-    {
-      "source": 1,
-      "target": 2,
-      "type": "normal"
-    },
-    {
-      "source": 2,
-      "target": 3,
-      "type": "normal"
-    },
-    {
-      "source": 3,
-      "target": 4,
-      "type": "normal"
-    },
-    {
-      "source": 4,
-      "target": 5,
-      "type": "normal"
-    },
-    {
-      "source": 5,
-      "target": 6,
-      "type": "normal"
-    },
-    {
-      "source": 6,
-      "target": 7,
-      "type": "normal"
-    },
-    {
-      "source": 7,
-      "target": 8,
-      "type": "normal"
-    },
-    {
-      "source": 8,
-      "target": 9,
-      "type": "normal"
-    },
-    {
-      "source": 9,
-      "target": 10,
-      "type": "normal"
-    },
-    {
-      "source": 10,
-      "target": 11,
-      "type": "normal"
-    },
-    {
-      "source": 11,
-      "target": 12,
-      "type": "normal"
-    },
-    {
-      "source": 12,
-      "target": 13,
-      "type": "normal"
-    },
-    {
-      "source": 13,
-      "target": 14,
-      "type": "normal"
-    },
-    {
-      "source": 14,
-      "target": 15,
-      "type": "normal"
-    },
-    {
-      "source": 15,
-      "target": 16,
-      "type": "normal"
-    },
-    {
-      "source": 16,
-      "target": 17,
-      "type": "normal"
-    },
-    {
-      "source": 17,
-      "target": 18,
-      "type": "normal"
-    },
-    {
-      "source": 18,
-      "target": 19,
-      "type": "normal"
-    },
-    {
-      "source": 19,
-      "target": 20,
-      "type": "normal"
-    },
-    {
-      "source": 20,
-      "target": 21,
-      "type": "normal"
-    },
-    {
-      "source": 21,
-      "target": 22,
-      "type": "normal"
-    },
-    {
-      "source": 22,
-      "target": 23,
-      "type": "normal"
-    },
-    {
-      "source": 23,
-      "target": 24,
-      "type": "normal"
-    },
-    {
-      "source": 24,
-      "target": 25,
-      "type": "normal"
-    },
-    {
-      "source": 25,
-      "target": 26,
-      "type": "normal"
-    },
-    {
-      "source": 26,
-      "target": 27,
-      "type": "normal"
-    },
-    {
-      "source": 27,
-      "target": 28,
-      "type": "normal"
-    },
-    {
-      "source": 28,
-      "target": 29,
-      "type": "normal"
-    },
-    {
-      "source": 29,
-      "target": 30,
-      "type": "normal"
-    },
-    {
-      "source": 1,
-      "target": 30,
-      "type": "mirror"
-    },
-    {
-      "source": 5,
-      "target": 25,
-      "type": "mirror"
-    },
-    {
-      "source": 10,
-      "target": 20,
-      "type": "mirror"
-    }
+    { "source": 1, "target": 2, "type": "sequential" },
+    { "source": 2, "target": 3, "type": "sequential" },
+    { "source": 3, "target": 4, "type": "sequential" },
+    { "source": 4, "target": 5, "type": "sequential" },
+    { "source": 5, "target": 6, "type": "sequential" },
+    { "source": 6, "target": 7, "type": "sequential" },
+    { "source": 7, "target": 8, "type": "sequential" },
+    { "source": 8, "target": 9, "type": "sequential" },
+    { "source": 9, "target": 10, "type": "sequential" },
+    { "source": 10, "target": 11, "type": "sequential" },
+    { "source": 11, "target": 12, "type": "sequential" },
+    { "source": 12, "target": 13, "type": "sequential" },
+    { "source": 13, "target": 14, "type": "sequential" },
+    { "source": 14, "target": 15, "type": "sequential" },
+    { "source": 15, "target": 16, "type": "sequential" },
+    { "source": 16, "target": 17, "type": "sequential" },
+    { "source": 17, "target": 18, "type": "sequential" },
+    { "source": 18, "target": 19, "type": "sequential" },
+    { "source": 19, "target": 20, "type": "sequential" },
+    { "source": 20, "target": 21, "type": "sequential" },
+    { "source": 21, "target": 22, "type": "sequential" },
+    { "source": 22, "target": 23, "type": "sequential" },
+    { "source": 23, "target": 24, "type": "sequential" },
+    { "source": 24, "target": 25, "type": "sequential" },
+    { "source": 25, "target": 26, "type": "sequential" },
+    { "source": 26, "target": 27, "type": "sequential" },
+    { "source": 27, "target": 28, "type": "sequential" },
+    { "source": 28, "target": 29, "type": "sequential" },
+    { "source": 29, "target": 30, "type": "sequential" },
+    { "source": 30, "target": 1, "type": "sequential" },
+    
+    { "source": 1, "target": 30, "type": "mirror" },
+    { "source": 2, "target": 29, "type": "mirror" },
+    { "source": 3, "target": 28, "type": "mirror" },
+    { "source": 4, "target": 27, "type": "mirror" },
+    { "source": 5, "target": 26, "type": "mirror" },
+    { "source": 6, "target": 25, "type": "mirror" },
+    { "source": 7, "target": 24, "type": "mirror" },
+    { "source": 8, "target": 23, "type": "mirror" },
+    { "source": 9, "target": 22, "type": "mirror" },
+    { "source": 10, "target": 21, "type": "mirror" },
+    { "source": 11, "target": 20, "type": "mirror" },
+    { "source": 12, "target": 19, "type": "mirror" },
+    { "source": 13, "target": 18, "type": "mirror" },
+    { "source": 14, "target": 17, "type": "mirror" },
+    { "source": 15, "target": 16, "type": "mirror" }
   ]
 }
