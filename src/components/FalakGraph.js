@@ -1,14 +1,15 @@
 "use client";
 
 import dynamic from 'next/dynamic';
-import { useCallback, useEffect, useState, useMemo } from 'react';
+import { useCallback, useEffect, useState, useMemo, useRef } from 'react';
 
 // ForceGraph2D relies on window, so we must dynamically import it with ssr: false
 const ForceGraph2D = dynamic(() => import('react-force-graph-2d'), { ssr: false });
 
-export default function FalakGraph({ data, onNodeClick, selectedNode }) {
+export default function FalakGraph({ data, onNodeClick, selectedNode, targetNodeId }) {
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
   const [isMounted, setIsMounted] = useState(false);
+  const fgRef = useRef(); // This is the camera "brain"
 
   useEffect(() => {
     const timeoutId = setTimeout(() => setIsMounted(true), 0);
@@ -27,6 +28,18 @@ export default function FalakGraph({ data, onNodeClick, selectedNode }) {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+
+  // --- FLY-TO CAMERA LOGIC ---
+  useEffect(() => {
+    if (targetNodeId && fgRef.current) {
+      const node = data.nodes.find(n => n.id === targetNodeId);
+      if (node) {
+        // Glide to node over 1 second, zoom to level 6
+        fgRef.current.centerAt(node.x, node.y, 1000);
+        fgRef.current.zoom(6, 1000);
+      }
+    }
+  }, [targetNodeId, data.nodes]);
 
   // Compute highlighted nodes and links based on selectedNode
   const { highlightedNodes, highlightedLinks } = useMemo(() => {
@@ -130,6 +143,7 @@ export default function FalakGraph({ data, onNodeClick, selectedNode }) {
   return (
     <div className="w-full h-full bg-gray-900">
       <ForceGraph2D
+        ref={fgRef}
         width={dimensions.width}
         height={dimensions.height}
         graphData={data}
