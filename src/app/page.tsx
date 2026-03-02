@@ -28,7 +28,7 @@ export default function Home() {
 
   const handleSelectVerse = (id: string) => {
     setTargetNodeId(id);
-    const node = mulkData.nodes.find(n => n.id === id);
+    const node = mulkData.nodes.find(n => String(n.id) === id);
     if (node) setSelectedNode(node);
   };
 
