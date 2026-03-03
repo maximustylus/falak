@@ -32,11 +32,12 @@ export default function FalakGraph({ data, onNodeClick, selectedNode, targetNode
   // --- FLY-TO CAMERA LOGIC ---
   useEffect(() => {
     if (targetNodeId && fgRef.current) {
-      const node = data.nodes.find(n => n.id === targetNodeId);
+      // Safely convert both to strings to ensure an exact match
+      const node = data.nodes.find(n => String(n.id) === String(targetNodeId));
       if (node) {
-        // Glide to node over 1 second, zoom to level 6
-        fgRef.current.centerAt(node.x, node.y, 1000);
-        fgRef.current.zoom(6, 1000);
+        // Glide to node over 1.2 seconds, zoom to level 6.5
+        fgRef.current.centerAt(node.x, node.y, 1200);
+        fgRef.current.zoom(6.5, 1200);
       }
     }
   }, [targetNodeId, data.nodes]);
@@ -52,7 +53,6 @@ export default function FalakGraph({ data, onNodeClick, selectedNode, targetNode
       // Find all mirror links connected to the selected node
       data.links.forEach(link => {
         if (link.type === 'mirror') {
-          // Force graph links can be objects or just ids before initialization
           const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
           const targetId = typeof link.target === 'object' ? link.target.id : link.target;
 
@@ -70,21 +70,16 @@ export default function FalakGraph({ data, onNodeClick, selectedNode, targetNode
     return { highlightedNodes: nodes, highlightedLinks: links };
   }, [selectedNode, data.links]);
 
-  const getNodeColor = (node, isHighlighted, isDimmed) => {
-    let color;
-    switch(node.group) {
-      case 1: color = '59, 130, 246'; break; // Blue
-      case 2: color = '239, 68, 68'; break; // Red
-      case 3: color = '251, 191, 36'; break; // Gold
-      default: color = '156, 163, 175'; break; // Gray
-    }
-
-    if (isDimmed) return `rgba(${color}, 0.2)`;
-    return `rgba(${color}, 1)`;
+  // Premium Space Palette
+  const getNodeColor = (isHighlighted, isDimmed) => {
+    if (isDimmed) return 'rgba(100, 116, 139, 0.15)'; // Deep faded slate
+    if (isHighlighted) return 'rgba(0, 229, 255, 1)'; // Neon Cyan for focus
+    return 'rgba(255, 255, 255, 0.9)'; // Bright starlight white for default
   };
 
   const drawNode = useCallback((node, ctx, globalScale) => {
-    const label = node.name || `Node ${node.id}`;
+    // Use the theme from your JSON data instead of the missing 'name' attribute
+    const label = node.theme ? `V.${node.id}: ${node.theme}` : `Verse ${node.id}`;
     const fontSize = 12 / globalScale;
 
     const isHighlighted = highlightedNodes.has(node.id);
@@ -93,19 +88,32 @@ export default function FalakGraph({ data, onNodeClick, selectedNode, targetNode
     const baseRadius = 5;
     const radius = isHighlighted ? baseRadius * 1.5 : baseRadius;
 
-    // Draw circle
+    // --- Draw "Star Halo" Glow Effect ---
+    if (isHighlighted) {
+      ctx.beginPath();
+      ctx.arc(node.x, node.y, radius * 2.5, 0, 2 * Math.PI, false);
+      ctx.fillStyle = 'rgba(0, 229, 255, 0.2)'; // Soft Cyan outer glow
+      ctx.fill();
+    }
+
+    // --- Draw Core Circle ---
     ctx.beginPath();
     ctx.arc(node.x, node.y, radius, 0, 2 * Math.PI, false);
-    ctx.fillStyle = getNodeColor(node, isHighlighted, isDimmed);
+    ctx.fillStyle = getNodeColor(isHighlighted, isDimmed);
     ctx.fill();
 
-    // Draw label
+    // --- Draw Label ---
     if (!isDimmed) {
-      ctx.font = `${fontSize}px Sans-Serif`;
+      ctx.font = `${isHighlighted ? 'bold ' : ''}${fontSize}px Sans-Serif`;
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
-      ctx.fillStyle = 'white'; // Assuming dark background
-      ctx.fillText(label, node.x, node.y + (radius + 4));
+      
+      // Add a slight drop shadow to the text so it reads clearly over links
+      ctx.shadowColor = 'rgba(0,0,0,0.8)';
+      ctx.shadowBlur = 4;
+      ctx.fillStyle = isHighlighted ? '#00E5FF' : 'white';
+      ctx.fillText(label, node.x, node.y + (radius + 6));
+      ctx.shadowBlur = 0; // reset shadow for next draw
     }
   }, [selectedNode, highlightedNodes]);
 
@@ -118,18 +126,18 @@ export default function FalakGraph({ data, onNodeClick, selectedNode, targetNode
     ctx.lineTo(link.target.x, link.target.y);
 
     if (isHighlighted) {
-      // Glow brightly for selected mirror links
+      // Intensely glow selected links
       ctx.strokeStyle = '#00E5FF'; // Cyan
       ctx.lineWidth = 3 / globalScale;
-      ctx.shadowBlur = 10;
+      ctx.shadowBlur = 12;
       ctx.shadowColor = '#00E5FF';
     } else if (link.type === 'mirror') {
-      ctx.strokeStyle = isDimmed ? 'rgba(255, 255, 255, 0.1)' : 'rgba(255, 255, 255, 0.8)';
-      ctx.lineWidth = 2 / globalScale;
-      ctx.shadowBlur = isDimmed ? 0 : 5;
+      ctx.strokeStyle = isDimmed ? 'rgba(255, 255, 255, 0.05)' : 'rgba(255, 255, 255, 0.6)';
+      ctx.lineWidth = 1.5 / globalScale;
+      ctx.shadowBlur = isDimmed ? 0 : 3;
       ctx.shadowColor = 'white';
     } else {
-      ctx.strokeStyle = isDimmed ? 'rgba(156, 163, 175, 0.1)' : 'rgba(156, 163, 175, 0.4)'; // Gray
+      ctx.strokeStyle = isDimmed ? 'rgba(156, 163, 175, 0.05)' : 'rgba(156, 163, 175, 0.2)';
       ctx.lineWidth = 1 / globalScale;
       ctx.shadowBlur = 0;
     }
@@ -141,7 +149,8 @@ export default function FalakGraph({ data, onNodeClick, selectedNode, targetNode
   if (!isMounted) return null;
 
   return (
-    <div className="w-full h-full bg-gray-900">
+    // Removed solid background to let globals.css space background show through
+    <div className="w-full h-full relative">
       <ForceGraph2D
         ref={fgRef}
         width={dimensions.width}
@@ -151,8 +160,9 @@ export default function FalakGraph({ data, onNodeClick, selectedNode, targetNode
         linkCanvasObject={drawLink}
         enableNodeDrag={true}
         enableZoomPanInteraction={true}
-        backgroundColor="#111827" // matches Tailwind gray-900
+        backgroundColor="rgba(0,0,0,0)" // Fully transparent!
         onNodeClick={onNodeClick}
+        cooldownTicks={100} // Helps the initial physics simulation settle faster
       />
     </div>
   );
