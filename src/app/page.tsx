@@ -45,13 +45,11 @@ export default function Home() {
             className="w-full bg-white/5 backdrop-blur-xl border border-white/10 text-white rounded-2xl px-6 py-4 outline-none appearance-none cursor-pointer hover:bg-white/10 transition-all text-center shadow-[0_8px_32px_0_rgba(0,0,0,0.8)] font-medium tracking-wide"
           >
             <option value="" className="bg-[#0B0F1A]">Explore Al-Mulk...</option>
-            {mulkData.nodes
-              .filter(n => n.group === 1)
-              .map((v) => (
-                <option key={v.id} value={v.id} className="bg-[#0B0F1A]">
-                  Verse {v.id}: {v.name}
-                </option>
-            ))}
+            {mulkData.nodes.map((v) => (
+                          <option key={v.id} value={v.id} className="bg-[#0B0F1A]">
+                            Verse {v.id}: {v.theme}
+                          </option>
+                      ))}
           </select>
           {/* Custom dropdown arrow */}
           <div className="absolute right-6 top-1/2 -translate-y-1/2 pointer-events-none text-white/40 group-hover:text-white/80 transition-colors">
